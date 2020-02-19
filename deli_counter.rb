@@ -14,7 +14,8 @@ def line(x)
  end
  
  def take_a_number(line_array, new_client)
-   number_in_line =  
+   katz_deli.push(new_client)
+   
    
  
  
