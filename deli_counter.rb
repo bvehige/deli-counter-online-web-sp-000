@@ -22,8 +22,9 @@ def line(x)
    if katz_deli.empty? 
      puts "There is nobody waiting to be served!"
    else 
-     puts "currently serving #{katz_deli.first}."
-     katz_deli.
+     puts "Currently serving #{katz_deli.shift}."
+   end
+   
    
   
    
