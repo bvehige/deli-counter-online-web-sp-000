@@ -6,7 +6,8 @@ def line(x)
   if x.length == 0 
     puts "The line is currently empty."
   elsif x.length > 0 
-    x.each.with_index(1) do |name, index| 
+    x.each.with_index(1) do |name, index|
+      line_array.push ()
      puts "The line is currently: #{index}. #{name} "
    end
  end
