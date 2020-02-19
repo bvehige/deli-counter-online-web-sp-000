@@ -13,9 +13,11 @@ def line(x)
    end
  end
  
- def take_a_number(line_array, new_client)
+ def take_a_number(katz_deli, new_client)
    katz_deli.push(new_client)
-   
+   puts "Welcome #{new_client}.  You're number is #{katz_deli.length}."
+  end
+  
    
  
  
