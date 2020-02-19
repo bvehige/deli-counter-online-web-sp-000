@@ -13,6 +13,9 @@ def line(x)
    end
  end
  
+ def take_a_number(line_array, new_client)
+   number_in_line =  
+   
  
  
  
