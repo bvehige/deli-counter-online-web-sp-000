@@ -8,6 +8,7 @@ def line(x)
   elsif x.length > 0 
     x.each.with_index(1) do |name, index|
       line_array.push ("#{index}. #{name}")
+    end
      puts "The line is currently: #{index}. #{name} "
    end
  end
