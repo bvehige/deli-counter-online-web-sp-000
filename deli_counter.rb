@@ -23,6 +23,7 @@ def line(x)
      puts "There is nobody waiting to be served!"
    else 
      puts "currently serving #{katz_deli.first}."
+     katz_deli.
    
   
    
