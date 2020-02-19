@@ -18,6 +18,9 @@ def line(x)
    puts "Welcome #{new_client}.  You're number is #{katz_deli.length}."
   end
   
+ def now_serving(katz_deli)
+   
+  
    
  
  
