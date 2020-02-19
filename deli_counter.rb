@@ -15,7 +15,7 @@ def line(x)
  
  def take_a_number(katz_deli, new_client)
    katz_deli.push(new_client)
-   puts "Welcome, #{new_client}.  You are number #{katz_deli.length} in line."
+   puts "Welcome, #{new_client}. You are number #{katz_deli.length} in line."
   end
   
  def now_serving(katz_deli)
